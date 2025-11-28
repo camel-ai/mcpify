@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/camel-ai-mcpify-badge.png)](https://mseep.ai/app/camel-ai-mcpify)
+
 # MCPify - Export all projects as MCP servers!
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
