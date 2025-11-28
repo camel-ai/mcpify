@@ -30,7 +30,7 @@ dependencies = [
     "aiohttp>=3.12.2",
     "mcp[cli]>=1.9.1",
     "openai>=1.0.0",
-    "gitingest>=1.0.3",
+    "gitingest",
 ]
 
 [project.urls]
