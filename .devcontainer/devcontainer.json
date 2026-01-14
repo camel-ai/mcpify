@@ -1,0 +1,7 @@
+{
+  "name": "mcpify-dev",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "pip install -e .[dev] openai camel-ai || true",
+  "remoteUser": "vscode",
+  "forwardPorts": [8080]
+}
