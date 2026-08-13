@@ -382,4 +382,11 @@ class OpenaiDetector(BaseDetector):
                 "config": {"base_url": "http://localhost:8000", "timeout": 30},
             }
         else:
-            return {"type": "python", "config": {"module": "main"}}
+            return {
+                "type": "commandline",
+                "config": {
+                    "command": "python3",
+                    "args": ["main.py"],
+                    "cwd": ".",
+                },
+            }
